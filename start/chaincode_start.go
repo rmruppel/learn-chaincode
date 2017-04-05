@@ -34,7 +34,8 @@ func main() {
 	err := shim.Start(new(SimpleChaincode))
 	if err != nil {
 		fmt.Printf("Error starting Simple chaincode: %s", err)
-	}
+	} 
+        fmt.Printf("hello, world\n")
 }
 
 // Init resets all the things
